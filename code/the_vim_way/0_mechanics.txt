@@ -1,3 +1,18 @@
+The x command deletes the character under the cursor. When we use the dot
+command in this context, ¡°repeat last change¡± tells Vim to delete the character
+under the cursor
+
+The dd command also performs a deletion, but this one acts on the current line as a
+whole. If we use the dot command after dd, then ¡°repeat last change¡± instructs Vim
+to delete the current line:
+
+Finally, the >G command increases the indentation from the current line until the end
+of the file. If we follow this command with the dot command, then ¡°repeat last
+change¡± tells Vim to increase the indentation level from the current position to the
+end of the file. In this example, we¡¯ll start with the cursor on the second line to
+highlight the difference
+
+
 Line one
 Line two
 Line three
