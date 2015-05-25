@@ -1,1 +1,11 @@
+Pressing db deletes from the cursor¡¯s starting position to the beginning of the word,
+but it leaves the final ¡°h¡± intact. We can delete this rogue character by pressing x.
+That gives us a Vim golf score of 3.
+
+We have to start by maneuvering our cursor into position with the b motion. Once
+it¡¯s in place, we can excise the word with a single dw command. Once again, our
+Vim golf score is 3.
+
+The daw command is easily remembered by the mnemonic delete a word
+
 The end is nigh

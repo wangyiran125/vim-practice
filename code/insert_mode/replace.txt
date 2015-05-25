@@ -1,2 +1,7 @@
+From Normal mode, we can engage Replace mode with the R command. As the
+example demonstrates, typing ¡°, b¡± overwrites the existing ¡°. B¡± characters. And
+when we¡¯re finished with Replace mode, we can hit the <Esc> key to return to
+Normal mode.
+
 Typing in Insert mode extends the line. But in Replace mode
 the line length doesn't change.

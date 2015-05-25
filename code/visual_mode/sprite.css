@@ -1,3 +1,8 @@
+Suppose that the sprite.png file has been moved from images/ into a
+                                                             components/ directory. We¡¯ll need to change each of these lines to reference the
+                                                                                                                                      file¡¯s new location
+                                                                                                                                      When we
+                                                                                                                                      hit the c
 li.one   a{ background-image: url('/images/sprite.png'); }
-li.two   a{ background-image: url('/images/sprite.png'); }
+li.twol   a{ background-image:url('/images/sprite.png'); }
 li.three a{ background-image: url('/images/sprite.png'); }
